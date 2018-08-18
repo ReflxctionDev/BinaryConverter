@@ -39,10 +39,10 @@ public class BinaryConverter extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Scene asciiScene = new Scene(new ConverterMenu(), 500, 600);
+        Scene converterScene = new Scene(new ConverterMenu(), 500, 600);
         currentStage = primaryStage;
         currentStage.setTitle("Binary <-> Ascii Converter");
-        currentStage.setScene(asciiScene);
+        currentStage.setScene(converterScene);
         currentStage.show();
     }
 
